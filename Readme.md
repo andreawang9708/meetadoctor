@@ -2,6 +2,7 @@
 ### Project/Team Name: Meeting a Doctor
 ##  
 
+
 **Team Members**  Use format below  
 Name         | Year
 ------------ | -------------
@@ -15,7 +16,7 @@ Due to the influence of COVID-19, medical resources are less reachable, and peop
 
 In this online doctor reservation web system, users will be able to access the general information of hospitals in Philadelphia, including its location, specialty, and doctor. Besides that, users can reserve a time slot to meet the doctor with a particular specialty on a specific day, and the system will provide all available doctors at that time. After the time is chosen, an agenda will be added to the users' calendar in this web app. Users will also be able to provide feedback to a specific doctor after the meeting.
 
-**Anticipated Stack** 
+**Applied Stack** 
 
 Frontend: ReactJS with Bootstrap and CSS for styling
 Backend: Spring Boot, Spring Security, JWT, SQL
@@ -36,5 +37,4 @@ https://www.youtube.com/watch?v=0Rjwb37S-sw&list=PL2RUIUzoB9EGNPiywkWpvNcpy-2vV1
  
 
 **Test data**
-
 The available doctor names are doctor, doctor1 and doctor2, you can try the application by using these doctor names. if you use local database, please change the configuration in hackathon\server\src\main\resources\application.properties and insert at least one available doctor name by using the following sql: INSERT INTO doctors (department, hospital, name, email) VALUES ('other', 'hospital', 'doctor', "123@123"); SELECT * FROM doctors;
