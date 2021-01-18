@@ -24,4 +24,8 @@ Database: MySQL holding on AWS
 
 **Presentation URL** - At the end of the hackathon, upload your presentation to YouTube/Vimeo (unlisted) and place it here.  
 Enter URL here
-https://www.youtube.com/channel/UCAgGD6wKr4M3X287Mw34VPQ
+https://www.youtube.com/watch?v=0Rjwb37S-sw&list=PL2RUIUzoB9EGNPiywkWpvNcpy-2vV19aM&index=1&t=6s
+
+
+** Test The App **
+The available doctor names are doctor, doctor1 and doctor2, you can try the application by using these doctor names. if you use local database, please change the configuration in hackathon\polling-app-server\src\main\resources\application.properties and insert at least one available doctor name by using the following sql: INSERT INTO doctors (department, hospital, name, email) VALUES ('other', 'hospital', 'doctor', "123@123"); SELECT * FROM doctors;
