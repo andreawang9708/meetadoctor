@@ -37,4 +37,5 @@ https://www.youtube.com/watch?v=0Rjwb37S-sw&list=PL2RUIUzoB9EGNPiywkWpvNcpy-2vV1
  
 
 **Test data**
+
 The available doctor names are doctor, doctor1 and doctor2, you can try the application by using these doctor names. if you use local database, please change the configuration in hackathon\server\src\main\resources\application.properties and insert at least one available doctor name by using the following sql query: ```INSERT INTO doctors (department, hospital, name, email) VALUES ('other', 'hospital', 'doctor', "123@123"); SELECT * FROM doctors;```
