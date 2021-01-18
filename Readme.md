@@ -28,9 +28,11 @@ https://www.youtube.com/watch?v=0Rjwb37S-sw&list=PL2RUIUzoB9EGNPiywkWpvNcpy-2vV1
 
 
 **Test the app** 
+
 1. Dowload code 
 2. Get to the client side using command line and run: npm install 3. change the configuration in hackathon\polling-app-server\src\main\resources\application.properties if you want to use local database 
 3. Get to the server side using command line and run mvn spring-boot:run 
 
 **Test data**
+
 The available doctor names are doctor, doctor1 and doctor2, you can try the application by using these doctor names. if you use local database, please change the configuration in hackathon\polling-app-server\src\main\resources\application.properties and insert at least one available doctor name by using the following sql: INSERT INTO doctors (department, hospital, name, email) VALUES ('other', 'hospital', 'doctor', "123@123"); SELECT * FROM doctors;
