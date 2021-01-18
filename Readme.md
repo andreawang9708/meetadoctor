@@ -29,12 +29,12 @@ https://www.youtube.com/watch?v=0Rjwb37S-sw&list=PL2RUIUzoB9EGNPiywkWpvNcpy-2vV1
 
 **Test the app** 
 
-1. Download code 
-2. change the datasource configuration in hackathon\polling-app-server\src\main\resources\application.properties if you want to use your local database 
+1. download or clone the source code 
+2. change the datasource configuration in hackathon\server\src\main\resources\application.properties if you want to use your local database 
 3. cd to the server side and run: ``` mvn spring-boot:run``` 
-4. cd to the client side and run: ```npm install```
+4. cd to the client side and run: ```npm install``` to install all dependencies and then type ```npm start```
  
 
 **Test data**
 
-The available doctor names are doctor, doctor1 and doctor2, you can try the application by using these doctor names. if you use local database, please change the configuration in hackathon\polling-app-server\src\main\resources\application.properties and insert at least one available doctor name by using the following sql: INSERT INTO doctors (department, hospital, name, email) VALUES ('other', 'hospital', 'doctor', "123@123"); SELECT * FROM doctors;
+The available doctor names are doctor, doctor1 and doctor2, you can try the application by using these doctor names. if you use local database, please change the configuration in hackathon\server\src\main\resources\application.properties and insert at least one available doctor name by using the following sql: INSERT INTO doctors (department, hospital, name, email) VALUES ('other', 'hospital', 'doctor', "123@123"); SELECT * FROM doctors;
