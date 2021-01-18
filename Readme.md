@@ -29,9 +29,11 @@ https://www.youtube.com/watch?v=0Rjwb37S-sw&list=PL2RUIUzoB9EGNPiywkWpvNcpy-2vV1
 
 **Test the app** 
 
-1. Dowload code 
-2. Get to the client side using command line and run: npm install 3. change the configuration in hackathon\polling-app-server\src\main\resources\application.properties if you want to use local database 
-3. Get to the server side using command line and run mvn spring-boot:run 
+1. Download code 
+2. change the datasource configuration in hackathon\polling-app-server\src\main\resources\application.properties if you want to use your local database 
+3. cd to the server side and run: ``` mvn spring-boot:run``` 
+4. cd to the client side and run: ```npm install```
+ 
 
 **Test data**
 
