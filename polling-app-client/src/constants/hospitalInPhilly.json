@@ -1,0 +1,101 @@
+[
+	{
+		"id" : 1,
+		"hospitalName" : "Hospitals of the University of Pennsylvania-Penn Presbyterian",
+		"ranking" : 1,
+		"latitude" : 39.95045090,
+		"longitude" : -75.19386136,
+		"address" : "3400 Spruce St, Philadelphia, PA 19104",
+		"rating" : 3.5
+	},
+	{
+		"id" : 2,
+		"hospitalName" : "Jefferson Health-Thomas Jefferson University Hospitals",
+		"ranking" : 2,
+		"latitude" : 39.94904980,
+		"longitude" : -75.15727012,
+		"address" : "111 S 11th St, Philadelphia, PA 19107",
+		"rating" : 3.5
+	},
+	{
+		"id" : 3,
+		"hospitalName" : "Christiana Care Hospitals",
+		"ranking" : 3,
+		"latitude" : 39.69041250,
+		"longitude" : -75.67262980,
+		"address" : "4755 Ogletown Stanton Rd, Newark, DE 19718",
+		"rating" : 2.6
+	},
+	{
+		"id" : 4,
+		"hospitalName" : "Pennsylvania Hospital",
+		"ranking" : 4,
+		"latitude" : 39.94796559,
+		"longitude" : -75.15375710,
+		"address" : "Farm Journal Building, 230 W Washington Square, Philadelphia, PA 19106",
+		"rating" : 3.8
+	},
+	{
+		"id" : 5,
+		"hospitalName" : "Chester County Hospital",
+		"ranking" : 5,
+		"latitude" : 39.97950315,
+		"longitude" : -75.59927402,
+		"address" : "701 E Marshall St, West Chester, PA 19380",
+		"rating" : 3.2
+	},
+	{
+		"id" : 6,
+		"hospitalName" : "Lankenau Medical Center",
+		"ranking" : 5,
+		"latitude" : 39.98840802,
+		"longitude" : -75.26259689,
+		"address" : "100 E Lancaster Ave, Wynnewood, PA 19096",
+		"rating" : 3.4
+	},
+	{
+		"id" : 7,
+		"hospitalName" : "Jefferson Health-Abington Hospital",
+		"ranking" : 7,
+		"latitude" : 40.11923297,
+		"longitude" : -75.11985276,
+		"address" : "1200 Old York Rd, Abington, PA 19001",
+		"rating" : 2.8
+	},
+	{
+		"id" : 8,
+		"hospitalName" : "Doylestown Hospital",
+		"ranking" : 8,
+		"latitude" : 40.31102750,
+		"longitude" : -75.14532423,
+		"address" : "595 W State St, Doylestown, PA 18901",
+		"rating" : 3.6
+	},
+	{
+		"id" : 9,
+		"hospitalName" : "Bryn Mawr Hospital",
+		"ranking" : 9,
+		"latitude" : 40.01894461,
+		"longitude" : -75.32128448,
+		"address" : "130 South Bryn Mawr Avenue Medical Building North, Suite 203, Bryn Mawr, PA 19010",
+		"rating" : 3.8
+	},
+	{
+		"id" : 10,
+		"hospitalName" : "Virtua Voorhees Hospital",
+		"ranking" : 9,
+		"latitude" : 39.84290140,
+		"longitude" : -74.92775530,
+		"address" : "100 Bowman Dr, Voorhees Township, NJ 08043",
+		"rating" : 3.3
+	},
+	{
+		"id" : 11,
+		"hospitalName" : "Children's Hospital of Philadelphia",
+		"ranking" : 2,
+		"latitude" : 39.94767761,
+		"longitude" : -75.19532709,
+		"address" : "3401 Civic Center Blvd, Philadelphia, PA 19104",
+		"rating" : 4.3
+	}
+]
